@@ -12,7 +12,9 @@
 
 ### To run the slides, use the following command:
 ```bash
-mpd presentation-docker.md
+    mpd presentation-docker.md
 ```
+***Require mpd to be installed.***
+
 ### This will start a presentation in terninal mode. You can navigate through the slides using the arrow keys.
 ### To exit the presentation, press `q`.
