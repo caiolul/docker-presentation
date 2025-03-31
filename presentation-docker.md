@@ -96,7 +96,7 @@
 - **Rodando o contêiner:**
 
 ```bash
-    docker run -p 5000:5000 minha_app
+    docker run -p 8000:8000 minha_app
 ```
 
 
@@ -107,7 +107,12 @@
 - Exemplo `docker-compose.yml`:
 
 ``` yaml
-    version: '3' services: web: image: nginx ports: - "80:80"
+    version: '3' 
+    services: 
+      web: 
+        image: nginx 
+        ports: 
+          - "80:80"
 ```
 
 - **Subindo os serviços:**
